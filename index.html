@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <title>TODO</title>
+        <link rel="stylesheet" href="./styles/style.css" />
+    </head>
+
+    <body>
+        <div class="container">
+            <!-- HIGH -->
+            <section class="todo-section">
+                <div class="section-title">HIGH</div>
+
+                <form class="input-box high-task-form">
+                    <input type="text" name="task" placeholder="Добавить важных дел" />
+                    <button type="submit" class="add-btn">+</button>
+                </form>
+
+                <div class="tasks-list high-tasks-list"></div>
+            </section>
+
+            <!-- LOW -->
+            <section class="todo-section">
+                <div class="section-title">LOW</div>
+
+                <form class="input-box low-task-form">
+                    <input type="text" name="task" placeholder="Добавить" />
+                    <button type="submit" class="add-btn">+</button>
+                </form>
+
+                <div class="tasks-list low-tasks-list"></div>
+            </section>
+        </div>
+
+        <script type="module" src="./script/main.js"></script>
+    </body>
+</html>
